@@ -1,6 +1,5 @@
 class StartScene extends Scene {
-		public btn_tc: eui.Label;//弹出层按钮
-		public btn_qh2: eui.Label;//切换场景
+		public btnBegin: eui.Label;//切换场景
 		public pic: eui.Image;
 		public tweenGroup: egret.tween.TweenGroup;
 		
@@ -10,8 +9,8 @@ class StartScene extends Scene {
 		}
 		
 		protected onComplete() {
-			this.btn_qh2.touchEnabled = true;
-			this.btn_qh2.addEventListener(egret.TouchEvent.TOUCH_TAP, this.onTapqiehuan, this);
+			this.btnBegin.touchEnabled = true;
+			this.btnBegin.addEventListener(egret.TouchEvent.TOUCH_TAP, this.onTapqiehuan, this);
 
 			this.tweenGroup.play();
 		}

@@ -21,6 +21,6 @@
 	</w:Declarations>
 	<e:Rect left="0" right="0" top="0" bottom="0" fillColor="0x6d2929"/>
 	<e:Image height="1138" x="0" y="0" width="640" source="scene1_jpg"/>
-	<e:Label id="btn_qh2" text="切换到场景二" x="188" y="962" size="44"/>
+	<e:Label id="btnBegin" text="" x="220" y="829" size="44" anchorOffsetX="0" width="193" anchorOffsetY="0" height="47"/>
 	<e:Image id="pic" width="100" height="100" x="100" y="100" anchorOffsetX="0" anchorOffsetY="0" fillMode="scale" />
 </e:Skin>
