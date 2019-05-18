@@ -1,6 +1,8 @@
 class GameScene extends Scene {
 	public btn_qh3: eui.Label;
 	public text_tip: eui.BitmapLabel;
+
+	public l1: eui.Button;
 	
 	private isComplete: boolean;
 	private sound: egret.Sound;
@@ -22,11 +24,24 @@ class GameScene extends Scene {
 			this.sound = RES.getRes("type_mp3");
 			this.soundchannel = this.sound.play(0, 1);
 
-			let texture = RES.getRes("xin_png");
-			let config = RES.getRes("xin_json");
-			var _particle = new particle.GravityParticleSystem(texture, config);
-			this.addChild(_particle);
-			_particle.start();
+			let heart: Heart = new Heart();
+			heart.x = 190;
+			heart.y = 800;
+			this.addChild(heart);
+
+			let bubble1: Bubble = new Bubble();
+			bubble1.x = 457;
+			bubble1.y = 600;
+			bubble1.scaleX = 2;
+			bubble1.scaleY = 2;
+			this.addChild(bubble1);
+
+			let bubble2: Bubble = new Bubble();
+			bubble2.x = 537;
+			bubble2.y = 936;
+			bubble2.scaleX = 2;
+			bubble2.scaleY = 2;
+			this.addChild(bubble2);
 		}
 	}
 

@@ -4,4 +4,5 @@
 	<e:Image width="640" height="1138" x="0" y="0" source="scene2_jpg"/>
 	<e:Label id="btn_qh3" text="切换到场景三" y="1087" size="37" horizontalCenter="-111" textColor="0x000000"/>
 	<e:BitmapLabel id="text_tip" width="379" height="154" x="32.5" y="901" anchorOffsetX="0" anchorOffsetY="0" font="520font_fnt" />
+	<e:Button id="l1" label="Button" x="728" y="1200" anchorOffsetX="270" anchorOffsetY="588" width="27" height="28"/>
 </e:Skin>

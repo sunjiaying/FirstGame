@@ -1,7 +1,7 @@
 {
 	"groups": [
 		{
-			"keys": "egret_icon_png,description_json,scene1_jpg,scene2_jpg,520font2_png,520font2_fnt,click_mp3,type_mp3,xin_png,xin_json",
+			"keys": "egret_icon_png,description_json,scene1_jpg,scene2_jpg,520font2_png,520font2_fnt,click_mp3,type_mp3,bubble_png,bubble_json,heart_png,heart_json",
 			"name": "preload"
 		}
 	],
@@ -57,14 +57,24 @@
 			"url": "assets/type.mp3"
 		},
 		{
-			"name": "xin_png",
+			"name": "bubble_png",
 			"type": "image",
-			"url": "assets/xin.png"
+			"url": "assets/bubble.png"
 		},
 		{
-			"name": "xin_json",
+			"name": "bubble_json",
 			"type": "json",
-			"url": "assets/xin.json"
+			"url": "assets/bubble.json"
+		},
+		{
+			"name": "heart_png",
+			"type": "image",
+			"url": "assets/heart.png"
+		},
+		{
+			"name": "heart_json",
+			"type": "json",
+			"url": "assets/heart.json"
 		}
 	]
 }
