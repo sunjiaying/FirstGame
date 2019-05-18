@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="GameSceneexml" width="640" height="1138" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Rect left="0" right="0" top="0" bottom="0" fillColor="0x279944"/>
+	<e:Image width="640" height="1138" x="0" y="0" source="scene2_jpg"/>
+	<e:Label id="btn_qh3" text="切换到场景三" y="1087" size="37" horizontalCenter="-111" textColor="0x000000"/>
+	<e:BitmapLabel id="text_tip" width="379" height="154" x="32.5" y="901" anchorOffsetX="0" anchorOffsetY="0" font="520font_fnt" />
+</e:Skin>

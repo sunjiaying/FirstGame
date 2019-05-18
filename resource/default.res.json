@@ -1,0 +1,70 @@
+{
+	"groups": [
+		{
+			"keys": "egret_icon_png,description_json,scene1_jpg,scene2_jpg,520font2_png,520font2_fnt,click_mp3,type_mp3,xin_png,xin_json",
+			"name": "preload"
+		}
+	],
+	"resources": [
+		{
+			"url": "assets/egret_icon.png",
+			"type": "image",
+			"name": "egret_icon_png"
+		},
+		{
+			"url": "config/description.json",
+			"type": "json",
+			"name": "description_json"
+		},
+		{
+			"url": "assets/scene1.jpg",
+			"type": "image",
+			"name": "scene1_jpg"
+		},
+		{
+			"url": "assets/scene2.jpg",
+			"type": "image",
+			"name": "scene2_jpg"
+		},
+		{
+			"url": "assets/520font.fnt",
+			"type": "font",
+			"name": "520font_fnt"
+		},
+		{
+			"url": "assets/520font.png",
+			"type": "image",
+			"name": "520font_png"
+		},
+		{
+			"url": "assets/520font.png",
+			"type": "image",
+			"name": "520font2_png"
+		},
+		{
+			"url": "assets/520font.fnt",
+			"type": "font",
+			"name": "520font2_fnt"
+		},
+		{
+			"url": "assets/click.mp3",
+			"type": "sound",
+			"name": "click_mp3"
+		},
+		{
+			"name": "type_mp3",
+			"type": "sound",
+			"url": "assets/type.mp3"
+		},
+		{
+			"name": "xin_png",
+			"type": "image",
+			"url": "assets/xin.png"
+		},
+		{
+			"name": "xin_json",
+			"type": "json",
+			"url": "assets/xin.json"
+		}
+	]
+}
