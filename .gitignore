@@ -5,3 +5,4 @@ temp/
 libs/
 egret.d.ts
 tsconfig.json
+.DS_Store

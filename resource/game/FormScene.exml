@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="FormSceneexml" width="640" height="1138" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*">
+	<e:Rect left="0" right="0" top="0" bottom="0" fillColor="0x279944"/>
+	<ns1:EditableText id="txtTest" width="182" height="56" x="229" y="87" anchorOffsetX="0" anchorOffsetY="0" text="123"/>
+	<ns1:EditableText width="182" height="56" x="229" y="168" anchorOffsetX="0" anchorOffsetY="0" text="321"/>
+	<e:Label id="btnTest" text="测试" y="276" size="37" horizontalCenter="0" textColor="0x000000"/>
+	<e:Label id="btnCapture" text="测试截屏" y="353" size="37" horizontalCenter="0" textColor="0x000000"/>
+</e:Skin>

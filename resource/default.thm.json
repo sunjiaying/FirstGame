@@ -2,6 +2,7 @@
 	"skins": {},
 	"autoGenerateExmlsList": true,
 	"exmls": [
+		"resource/game/FormScene.exml",
 		"resource/game/GameScene.exml",
 		"resource/game/StartScene.exml"
 	],

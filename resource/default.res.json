@@ -1,7 +1,7 @@
 {
 	"groups": [
 		{
-			"keys": "egret_icon_png,description_json,scene1_jpg,scene2_jpg,520font2_png,520font2_fnt,click_mp3,type_mp3,bubble_png,bubble_json,heart_png,heart_json",
+			"keys": "egret_icon_png,description_json,scene1_jpg,scene2_jpg,520font2_png,520font2_fnt,click_mp3,type_mp3,bubble_png,bubble_json,heart_png,heart_json,input_png",
 			"name": "preload"
 		}
 	],
@@ -75,6 +75,11 @@
 			"name": "heart_json",
 			"type": "json",
 			"url": "assets/heart.json"
+		},
+		{
+			"name": "input_png",
+			"type": "image",
+			"url": "assets/input.png"
 		}
 	]
 }

@@ -46,7 +46,11 @@ class GameScene extends Scene {
 	}
 
 	private onBegin() {
-		let s1:StartScene =  new StartScene();
+		// let s1:StartScene =  new StartScene();
+		// ScreenMovies.MovieStart(4);
+        // SceneManager.Instance.changeScene(s1);
+
+		let s1:FormScene =  new FormScene();
 		ScreenMovies.MovieStart(4);
         SceneManager.Instance.changeScene(s1);
 	}
