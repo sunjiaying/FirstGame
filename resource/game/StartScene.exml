@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <e:Skin class="StartSceneexml" width="640" height="1138" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:tween="egret.tween.*" xmlns:ns1="*">
 	<w:Declarations>
-		<tween:TweenGroup id="tweenGroup">
+		<tween:TweenGroup id="loading1">
 			<tween:TweenItem target="{pic}">
 				<tween:props>
                     <e:Object loop="true" />
@@ -22,5 +22,5 @@
 	<e:Rect left="0" right="0" top="0" bottom="0" fillColor="0x6d2929"/>
 	<e:Image height="1138" x="0" y="0" width="640" source="scene1_jpg"/>
 	<e:Label id="btnBegin" text="" x="220" y="829" size="44" anchorOffsetX="0" width="193" anchorOffsetY="0" height="47"/>
-	<e:Image id="pic" width="100" height="100" x="100" y="100" anchorOffsetX="0" anchorOffsetY="0" fillMode="scale" />
+	<e:Image id="pic" width="100" height="100" x="100" y="100" anchorOffsetX="0" anchorOffsetY="0" fillMode="scale"  source="heart_png"/>
 </e:Skin>

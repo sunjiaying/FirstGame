@@ -1,7 +1,7 @@
 class StartScene extends Scene {
 		public btnBegin: eui.Label;//切换场景
 		public pic: eui.Image;
-		public tweenGroup: egret.tween.TweenGroup;
+		public loading1: egret.tween.TweenGroup;
 		
 		public constructor() {
 			super();
@@ -12,7 +12,7 @@ class StartScene extends Scene {
 			this.btnBegin.touchEnabled = true;
 			this.btnBegin.addEventListener(egret.TouchEvent.TOUCH_TAP, this.onTapqiehuan, this);
 
-			this.tweenGroup.play();
+			this.loading1.play(0);
 		}
 
 		private onTapqiehuan(){
